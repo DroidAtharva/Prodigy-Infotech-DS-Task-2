@@ -1,48 +1,61 @@
 # Prodigy-Infotech-DS-Task-2
-# 🚗 US Traffic Accident Analysis (Exploratory Data Analysis)
+# 🧠 Task 2: Data Analysis and Classification Project
 
-This project performs detailed EDA on US traffic accident data, uncovering trends and patterns using data cleaning and visualizations.
+This Jupyter Notebook is part of a data science workflow focused on performing exploratory data analysis (EDA) and building a basic machine learning classification model.
 
 ## 📌 Description
-The dataset contains traffic accident records across the US. The project involves:
-- Data preprocessing
-- Missing value imputation
-- Group-wise aggregations by city/state/year
-- Visualizing accident severity, time zones, and weather conditions
-- Geographic mapping of accidents
-
-## 📊 Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
+The notebook includes:
+- Importing and loading a dataset
+- Preliminary data inspection and cleaning
+- Descriptive statistics and correlation analysis
+- Data visualization using Seaborn and Matplotlib
+- Encoding categorical variables
+- Model training using a classifier (e.g., Decision Tree / Logistic Regression)
+- Evaluation with accuracy and classification report
 
 ## 📁 Dataset
-- File: US_Accidents_March23.csv
-- Source: Kaggle
+- The dataset is read via `pandas.read_csv()`
+- Contains both numerical and categorical columns
+- Includes a target label for classification
 
-## 💡 Key Insights
-- Most accidents occur in Miami and California
-- Morning is the riskiest time of day
-- Year 2021 had the highest accident count
-- Fair weather dominates accident conditions
-- Severity level 2 is most common
+## 🛠 Technologies Used
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Seaborn
+- Matplotlib
+- scikit-learn
 
 ## 🚀 How to Run
-1. Install requirements:
-   pip install pandas matplotlib seaborn
+1. Install required libraries:
+   pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 
-2. Put `US_Accidents_March23.csv` in the project folder.
+2. Open the notebook:
+   jupyter notebook Task\ 2.ipynb
 
-3. Run:
-   python traffic_accident_eda.py
+3. Run all cells step-by-step.
 
-## 📈 Visualizations
-- Bar charts: Cities, States, Years
-- Pie chart: Severity distribution
-- Time-based histograms
-- Scatter plots: Accident locations
-- Bar charts for weather conditions
+## 📊 Key Steps Covered
+- Checking for null values and data types
+- Univariate and bivariate visualizations
+- Label encoding and feature transformation
+- Train-test split
+- Model training and testing
+- Accuracy and classification metrics
 
-## ✅ Conclusion
-This project provides data-driven insights to improve road safety, identify accident-prone areas, and support transportation policy decisions.
+## ✅ Results
+- Achieved classification with basic machine learning techniques
+- Visualized relationships between variables
+- Identified feature importance (if included)
+
+## 🧠 Learnings
+- Data preprocessing workflow in real-world datasets
+- Performing EDA to guide model building
+- Training basic ML models with sklearn
+- Evaluating binary/multiclass classification tasks
+
+## 👤 Author
+- [Your Name]
+- [GitHub Profile or Contact Info]
+
